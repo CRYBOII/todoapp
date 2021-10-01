@@ -1,0 +1,45 @@
+body {
+  max-width: 60vw;
+
+  margin: auto;
+}
+a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+tr {
+  border-radius: 15px;
+}
+
+td {
+  cursor: pointer;
+  padding: 1.3rem;
+}
+
+table {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+
+  border-radius: 10px;
+
+  border: 2px solid aqua;
+}
+
+tr:nth-of-type(odd) {
+  background-color: rgb(191, 187, 187);
+}
+
+input[name="item"] {
+  width: 80%;
+}
+
+input {
+  height: 2rem;
+  border-radius: 8px;
+}
+
+form {
+  margin-top: 45px;
+}
